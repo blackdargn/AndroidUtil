@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/background">
+    <!-- 顶部begin -->
+	<include
+	     android:id="@+id/titleBar"
+	     android:layout_alignParentTop="true"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     layout="@layout/view_title_bar" />
+    <!-- 顶部END -->
+    <!-- 内容 begin -->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titleBar"
+        android:layout_above="@+id/bottomBar"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <!-- 内容 end -->
+    <!-- 底部 begin -->
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true" >
+    </LinearLayout>
+    <!-- 底部 end -->
+</RelativeLayout>

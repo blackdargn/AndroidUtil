@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/get1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get1"
+        android:onClick="onClick" />
+    <Button
+        android:id="@+id/post1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post1"
+        android:onClick="onClick" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/get2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get2"
+        android:onClick="onClick" />
+    <Button
+        android:id="@+id/post2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post2"
+        android:onClick="onClick" />
+    <Button
+        android:id="@+id/getCache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getCache"
+        android:onClick="onClick" />
+    </LinearLayout>
+     <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+	<color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="orange">#FFFF6600</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="wgray">#ffE3E5E1</color>
+    <color name="background">#FFF6F6F6</color>
+    <color name="black_70">#99000000</color>
+    <color name="search_backgrounds">#fff5f2eb</color>
+    <color name="search_clear_button_color">#ff825700</color>
+    <color name="find_list_backgrounds_clicked_color">#fff6e8c8</color>
+    <color name="find_list_backgrounds_color">#fff5f2eb</color>
+    <color name="take_photo_shopname_text_color">#ff545454</color>
+    <color name="address_gray">#ff959595</color>
+    <color name="title_red">#ffb91617</color>
+    <color name="find_list_middlesize_text_color">#ff828282</color>
+    <color name="find_list_vote_text_color">#ffb7a37a</color>
+    <color name="description_gray">#ff636363</color>
+    <color name="comment_item_bg">#fff9eeda</color>
+    <color name="listitem_common_title_color">#ffee082d</color>
+    <color name="listitem_common_subtitle_color">#ff535353</color>
+    <color name="listitem_common_detail_color">#ff535353</color>
+    <color name="listitem_common_discount_color">#fff60607</color>
+    <color name="category_text_color">#ffa59284</color>
+    <color name="listitem_discount_detail_color">#ffb70005</color>
+    <drawable name="bg_transparent">#00000000</drawable>
+    <color name="dialog_tx_color">#ff6B6B6B</color>
+
+    <color name="list_divder_color">#ffACACAC</color>
+    
+    <color name="lightwhite">#ddd</color>
+    <color name="tab_selected">#fccc00 </color>
+</resources>

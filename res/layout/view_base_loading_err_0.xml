@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_loading_err_0" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dip"
+        android:paddingBottom="12dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notify_icon"
+            android:layout_marginRight="8dip"
+            />
+        <TextView
+            android:id="@+id/tv_info_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:text="@string/loading_err"
+            android:textColor="@color/black"
+            android:textSize="18.0sp" />        
+    </LinearLayout>    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingBottom="6dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn01_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/search_clear_btn"
+            android:gravity="center"
+            android:text="@string/try_again_0"
+            android:textColor="@color/search_clear_button_color"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+</LinearLayout>

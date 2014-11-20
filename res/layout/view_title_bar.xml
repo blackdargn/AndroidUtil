@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.util.widget.TitleBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/bg_title_bar">
+    <!-- 左边区域 -->
+    <include
+         android:id="@+id/left_lay"
+         layout="@layout/view_imagetextbutton"
+	     android:layout_width="wrap_content"
+	     android:layout_height="match_parent"
+	     android:layout_alignParentLeft="true"
+	     android:layout_centerVertical="true"
+	     android:paddingLeft="4dp"/>
+	<!-- 右边区域 -->
+	<include  
+	    android:id="@+id/right_lay"
+	    layout="@layout/view_imagetextbutton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"/>
+    <!-- 中间区域  
+    		android:shadowDy="2"
+	        android:shadowRadius="3"
+	        android:shadowColor="#ff000000"-->
+    <LinearLayout 
+        android:id="@+id/title_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/left_lay"
+        android:layout_toLeftOf="@+id/right_lay"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+	    <TextView
+	        android:id="@+id/title_tv"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:textSize="22sp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="@color/white"/>
+	</LinearLayout>
+</com.android.util.widget.TitleBar>

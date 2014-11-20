@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <dimen name="margin_of_screen_left">10.0dip</dimen>
+    <dimen name="margin_of_screen_right">9.0dip</dimen>
+    <dimen name="search_result_list_left">8.0dip</dimen>
+    <dimen name="tiptext_bottom_margin">197.0dip</dimen>
+    <dimen name="base_title_bar_height">45.0dip</dimen>
+    <dimen name="base_tab_bar_height">49dip</dimen>
+    <dimen name="flow_adv_height">100dip</dimen>
+    <dimen name="sin_adv_height">50dip</dimen>
+    <dimen name="size36px">26.0sp</dimen>
+    <dimen name="size34px">24.0sp</dimen>
+    <dimen name="size32px">22.0sp</dimen>
+    <dimen name="size30px">20.0sp</dimen>
+    <dimen name="size26px">18.0sp</dimen>
+    <dimen name="size24px">16.0sp</dimen>
+    <dimen name="size22px">16.0sp</dimen>
+    <dimen name="size21px">15.0sp</dimen>
+    <dimen name="size20px">14.0sp</dimen>
+    <dimen name="size18px">12.0sp</dimen>
+    <dimen name="size16px">10.0sp</dimen>
+    <dimen name="size14px">8.0sp</dimen>
+    <dimen name="listpaddingtop">10dip</dimen>
+    <dimen name="listpaddingbottom">7dip</dimen>
+    <dimen name="listpaddingleft">15dip</dimen>
+    <dimen name="listpaddingright_much">16dip</dimen>
+    <dimen name="listpaddingright_little">10dip</dimen>
+    <dimen name="list_item_gap">4dip</dimen>
+    <dimen name="shop_icon_width">97dip</dimen>
+    <dimen name="shop_icon_height">84dip</dimen>
+    <dimen name="list_memdate_left">11dip</dimen>
+</resources>

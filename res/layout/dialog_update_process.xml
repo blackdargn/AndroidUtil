@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:crc="http://schemas.android.com/apk/res/com.lolage.crc"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <!-- 好友信息 -->
+	<RelativeLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:paddingLeft="16dip"
+        android:paddingTop="16dip"
+        android:paddingBottom="16dip"
+        android:paddingRight="16dip">
+
+			<Button
+			    android:id="@+id/cancel"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:minWidth="60dip"
+			    android:layout_alignParentRight="true"
+			    android:layout_centerVertical="true"			    
+			    android:text="取消"
+			    android:textColor="#FF000000"
+			    android:textSize="20sp" />
+
+			<TextView
+			    android:id="@+id/down_tip"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentTop="true"
+			    android:layout_toLeftOf="@+id/cancel"
+			    android:scaleType="fitXY"
+			    android:textColor="#FFDA6117"
+			    android:textSize="14dip" 
+			    android:layout_marginRight="10dip"
+			    android:layout_marginBottom="10dip"/>
+			
+            <ProgressBar
+                 android:id="@+id/processbar"
+                 android:layout_width="wrap_content"
+        	     android:layout_height="wrap_content"
+        	     android:layout_below="@+id/down_tip"
+        	     android:layout_alignRight="@+id/down_tip"
+        	     android:layout_alignLeft="@+id/down_tip"
+        	     style="?android:attr/progressBarStyleHorizontal"
+  				 android:max="100"
+  				 android:indeterminate="false"/>
+            
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/processbar"
+                android:layout_marginTop="10dip"
+                android:layout_below="@+id/processbar" >
+
+                <TextView
+                    android:id="@+id/done_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFFFF"
+			    	android:textSize="14dip"
+                    android:text="0KB" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFFFF"
+			    	android:textSize="14dip"
+                    android:text="/" />
+                <TextView
+                    android:id="@+id/total_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFFFF"
+			    	android:textSize="14dip"
+                    android:text="0MB" />
+            </LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_70"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="7.0dip"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/address_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:scaleType="centerInside"
+        android:src="@drawable/addressbar_icon" />
+
+    <ImageView
+        android:id="@+id/address_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="3.0dip"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/addressbar_refresh" />
+    
+    <ProgressBar
+        android:id="@+id/loc_loading"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="3.0dip"
+        android:gravity="center"
+        android:indeterminateDrawable="@drawable/progress_for_loc"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, AndroidUtilActivity!</string>
+    <string name="app_name">AndroidUtil</string>
+    <string name="loading">加载数据中…</string>
+    <string name="loading_err">加载数据失败</string>
+    <string name="try_again">重试</string>
+    <string name="load_more">点击获取更多</string>
+    <string name="not_network">没有可用的网络</string>
+    <string name="no_result">暂无结果</string>
+    <string name="can_not_find_city">无法找到该位置所对应的城市</string>
+    <string name="my_location">我的位置</string>
+    <string name="input_start">输入起点…</string>
+    <string name="input_end">输入终点…</string>
+    <string name="loc_not_found">无法找到该位置</string>
+    <string name="locating_info">定位中…请稍候再试</string>
+    <string name="locating">正在定位中....</string>
+    <string name="get_location_err">定位失败</string>
+    <string name="start_is">您要找的起点是：</string>
+    <string name="end_is">您要找的终点是：</string>
+    <string name="hint_selloc">地图上长按选择位置并保存</string>
+    <string name="drive_route">驾车线路</string>
+    <string name="bus_route">公交线路</string>
+    <string name="walk_route">步行线路</string>
+    <string name="meter">米</string>
+    <string name="no_match_route">没有匹配的线路</string>
+    <string name="has_no_line">没有找到可用线路</string>
+    <string name="end_empty">终点不能为空</string>
+    <string name="start_empty">起点不能为空</string>
+    <string name="title_shopline">商家线路</string>
+    <string name="data_err">数据错误</string>
+    <string name="change_route">切换路线</string>
+    <string formatted="false" name="from_to_format">" 从 %1$s 到 %2$s"</string>
+    <string name="title_selloc">地图选取</string>
+    <string name="no_selloc">请选取位置...</string>
+    <string name="finding_city">正在获取地址...</string>
+    <string name="title_shopmap">商家地图</string>
+    <string name="try_again_0">再次刷新</string>
+    <string name="shop_name_tag">商户名</string>
+    <string name="pull_to_list_loosen_refresh">松开刷新</string>
+    <string name="pull_to_list_pull_refresh">下拉刷新</string>
+    <string name="pull_to_list_refresh_ing">正在刷新…</string>
+    <string name="pull_to_list_last_update">最近更新:</string>
+    
+    <string name="tab_1">动态</string>
+    <string name="tab_2">群组</string>
+    <string name="tab_3">好友</string>
+    <string name="tab_4">会话</string>
+</resources>

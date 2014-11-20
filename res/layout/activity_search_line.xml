@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+		<include layout="@layout/activity_map"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_line_bg" >
+
+            <ImageView
+                android:id="@+id/header_change_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="7.0dip"
+                android:layout_marginTop="5.0dip"
+                android:clickable="true"
+                android:src="@drawable/bu_xing_icon" />
+
+            <TextView
+                android:id="@+id/header_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_toRightOf="@+id/header_change_img"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/header_hint_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_title_tv"
+                android:layout_marginLeft="7.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_toRightOf="@+id/header_change_img"
+                android:text="..."
+                android:textColor="@color/black_70" />
+        </RelativeLayout>
+
+        <com.android.util.widget.LoadableView
+            android:id="@+id/loadView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout="@layout/view_base_listview"/>
+    </LinearLayout>
+
+</LinearLayout>

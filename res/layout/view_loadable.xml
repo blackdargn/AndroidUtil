@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >    
+    <!-- 正在载入 -->
+    <include layout="@layout/view_base_loading" />
+    <!-- 出错载入 或者 无结果 用于列表分页无数据-->
+    <include layout="@layout/view_base_loading_err" />
+    <!-- 出错载入 或者 无结果 用于没有任何结果-->
+    <include layout="@layout/view_base_loading_err_0" />
+    <!-- 更多载入 -->
+    <include layout="@layout/view_base_load_more" />
+    <!-- 载入成功后，主视图 -->
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+</LinearLayout>

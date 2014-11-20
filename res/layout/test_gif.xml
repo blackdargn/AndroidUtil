@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/tx_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Gif test"
+        android:gravity="center|left"
+        android:drawableLeft="@drawable/f000"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/et_chat_lay"
+        android:layout_below="@+id/tx_title" 
+        style="@style/MListView">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/et_chat_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <pl.droidsonroids.gif.FaceEditText
+            android:id="@+id/et_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/btn_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:src="@drawable/f077"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</RelativeLayout>
